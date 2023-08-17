@@ -1,4 +1,4 @@
 #!/bin/bash
 
 DATE=$(date)
-echo "now the time is: $DATE
+echo "now the time is:" $DATE
