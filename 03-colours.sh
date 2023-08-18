@@ -1,6 +1,10 @@
 #!/bin/bash
 
-echo "Testing colours format"
-echo " Your first number is " $1
-echo "Your second number is " $2
-echo " Total is : " sum ($1 ,$2)
+echo -n "Enter 1st number: "
+read first_number
+echo -n "Enter 2nd number: "
+read second_number
+
+sum=$(($first_number + $second_number))
+
+echo "Sum of $first_number and $second_number: "$sum
